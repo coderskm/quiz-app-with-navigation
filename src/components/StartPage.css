@@ -1,0 +1,26 @@
+.start-page{
+    text-align: center;
+}
+
+.start-page h1{
+    text-transform:uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.start-page .btn{
+padding: 15px;
+background-color: rgb(54, 54, 241);
+font-weight: bolder;
+font-size: larger;
+color: aliceblue;
+border-radius: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:focus{
+    cursor: pointer;
+    background-color: rgb(115, 115, 235);
+}

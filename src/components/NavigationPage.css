@@ -1,0 +1,188 @@
+.nav {
+  width: 20%;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: auto;
+  border-radius: 10px;
+}
+
+.nav h1 {
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.information{
+    text-align: center;
+    padding: 0px 45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+   
+}
+
+.info-item{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-btn{
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.original-btn{
+ background-color: black;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.answered-btn{
+   background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold; 
+}
+
+.notanswered-btn{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold; 
+    
+}
+
+
+.marked-btn{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.ansmarked-btn{
+ background-color: rgb(0, 255, 183);
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.marked p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-decoration: underline;
+}
+.marked button{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.all-marked-btn{
+    padding: 5px 10px;
+    margin: 10px;
+}
+.nav-btn button:active{
+    background-color: rgb(68, 255, 0);
+    color: black;
+}
+.marked button:active{
+    background-color: rgb(68, 255, 0);
+    color: black;
+}
+
+.viewed{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    padding-top: 5px;
+    background-color: red;
+    color: aliceblue;
+    margin: auto;
+    font-weight: bolder;
+}
+
+.not-viewed{
+    border-radius: 50%;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid ;
+    padding-top: 5px;
+    background-color: black;
+    color: aliceblue;
+    margin: auto;
+    font-weight: bolder;
+
+}
+.answered{
+border-radius: 50%;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid ;
+    padding-top: 5px;
+    background-color: green;
+    color: aliceblue;
+    margin:auto;
+    font-weight: bolder;
+    margin-right:18px;
+
+}
+
+.not-answered{
+border-radius: 50%;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    padding-top: 5px;
+    background-color: rgb(234, 255, 0);
+    color: black;
+    margin: auto;
+    font-weight: bolder;
+
+}
+.marked-qns{
+    border-radius: 50%;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid ;
+    padding-top: 5px;
+    background-color: blue;
+    color: aliceblue;
+    margin: auto;
+    font-weight: bolder;
+
+}
+
+@media screen and (min-width:521px) and (max-width:1024px) {
+    .nav{
+        width: 50%;
+    }
+}
+@media screen and (max-width:520px) {
+ .nav{
+   display: flex;
+  flex-direction: column;
+  width:100%;
+  margin-top: 10px;
+ }
+}

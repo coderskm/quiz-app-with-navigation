@@ -1,0 +1,53 @@
+.quiz{
+    width: 70%;
+    border: 1px solid red;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.question{
+    text-align: left;
+    padding: 0px 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.quiz h1{
+    
+text-transform:uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-style button{
+    background-color: cadetblue;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-transform:uppercase;
+    font-weight: bolder;
+}
+.notanswered-btn{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold; 
+}
+.btn-style button:active{
+    background-color: blue;
+}
+.marked-btn{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+@media screen and (max-width:720px) {
+    .quiz{
+        width: 100%;
+    }
+}

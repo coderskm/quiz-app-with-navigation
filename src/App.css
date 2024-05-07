@@ -1,0 +1,33 @@
+.layout{
+  display: flex;
+  margin: 10px;
+  text-align: center;
+}
+
+button:hover{
+cursor: pointer;
+}
+
+.align-btn{
+  width: 50px;
+  margin: 0 auto;
+}
+
+.submit-btn{
+  background-color: cadetblue;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-transform:uppercase;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:520px) {
+ .layout{
+   display: flex;
+  flex-direction: column;
+ }
+
+}
